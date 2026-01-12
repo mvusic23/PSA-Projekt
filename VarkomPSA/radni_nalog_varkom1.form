@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "label": "Ime i prezime",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ybt7nh",
+        "columns": null
+      },
+      "id": "Field_1wneqch",
+      "key": "textfield_gvwi2j",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Osobni identifikacijski broj (OIB)",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0e48k0b",
+        "columns": null
+      },
+      "id": "Field_0gm1t47",
+      "key": "textfield_px4nt",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Osnovni podaci o Građevinskoj dozvoli",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1rudyu9",
+        "columns": null
+      },
+      "id": "Field_0bdnqlv",
+      "key": "textarea_4ka6c",
+      "properties": {},
+      "description": "Broj dokumenta, Datum izdavanja, Tijelo koje je izdalo dokument"
+    },
+    {
+      "label": "Osnovni podaci o izvodu iz katastarskog plana",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1v517xp",
+        "columns": null
+      },
+      "id": "Field_1e0kyke",
+      "key": "textarea_zz19e",
+      "description": "Katastarska čestica, Katastarska općina, Nadležni katastarski ured"
+    },
+    {
+      "label": "Ponuda broj",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16oh3zz",
+        "columns": null
+      },
+      "id": "Field_0hek66f",
+      "key": "textfield_h7kcab",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Datum",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_16oh3zz",
+        "columns": null
+      },
+      "id": "Field_0nt6fdt",
+      "key": "datetime_zgsgts"
+    },
+    {
+      "label": "Artikl",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0aj1jny",
+        "columns": null
+      },
+      "id": "Field_1sv67l4",
+      "key": "textfield_cr5nrq",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Jedinica mjere",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0aj1jny",
+        "columns": null
+      },
+      "id": "Field_09qzb9h",
+      "key": "textfield_u7serm",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Količina",
+      "type": "number",
+      "layout": {
+        "row": "Row_0aj1jny",
+        "columns": null
+      },
+      "id": "Field_15wmvv3",
+      "key": "number_jd6oiz",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cijena",
+      "type": "number",
+      "layout": {
+        "row": "Row_0aj1jny",
+        "columns": null
+      },
+      "id": "Field_1c0giif",
+      "key": "number_dz6pm",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Ukupni iznos",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1prevc2",
+        "columns": null
+      },
+      "id": "Field_096zogn",
+      "key": "textfield_ebwoow"
+    }
+  ],
+  "type": "default",
+  "id": "kreirati_ponudu",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}

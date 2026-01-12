@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "label": "Ime i prezime",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ybt7nh",
+        "columns": null
+      },
+      "id": "Field_1wneqch",
+      "key": "textfield_gvwi2j",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Osobni identifikacijski broj (OIB)",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0e48k0b",
+        "columns": null
+      },
+      "id": "Field_0gm1t47",
+      "key": "textfield_px4nt",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Osnovni podaci o Građevinskoj dozvoli",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1rudyu9",
+        "columns": null
+      },
+      "id": "Field_0bdnqlv",
+      "key": "textarea_4ka6c",
+      "properties": {},
+      "description": "Broj dokumenta, Datum izdavanja, Tijelo koje je izdalo dokument"
+    },
+    {
+      "label": "Osnovni podaci o izvodu iz katastarskog plana",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1v517xp",
+        "columns": null
+      },
+      "id": "Field_1e0kyke",
+      "key": "textarea_zz19e",
+      "description": "Katastarska čestica, Katastarska općina, Nadležni katastarski ured"
+    },
+    {
+      "label": "Izjavljujem da posjedujem navedenu dokumentaciju te da ću je dostaviti na zahtjev",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0vwqj9e",
+        "columns": null
+      },
+      "id": "Field_02xdcjs",
+      "key": "checkbox_sa6w0g"
+    },
+    {
+      "label": "Zahtjev zaprimljen od",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1h1llwy",
+        "columns": null
+      },
+      "id": "Field_01o0bg0",
+      "key": "textfield_qy8e4u",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Broj zahtjeva",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_01de06z",
+        "columns": null
+      },
+      "id": "Field_0lmfutg",
+      "key": "textfield_2yaw7a"
+    },
+    {
+      "label": "Valjanost zahtjeva",
+      "values": [
+        {
+          "label": "Valjan",
+          "value": "Valjan"
+        },
+        {
+          "label": "Nadopuna",
+          "value": "Nadopuna"
+        },
+        {
+          "label": "Nevažeći",
+          "value": "Nevazeci"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_01de06z",
+        "columns": null
+      },
+      "id": "Field_1phdjbo",
+      "key": "select_tspsa",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Obrazloženje o valjanosti zahtjeva",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1pgcy30",
+        "columns": null
+      },
+      "id": "Field_1fbg0gm",
+      "key": "textfield_uskjj"
+    },
+    {
+      "label": "Referent za daljnju obradu",
+      "values": [
+        {
+          "label": "Mira Miric",
+          "value": "Mira Miric"
+        },
+        {
+          "label": "Ivan Horvat",
+          "value": "Ivan Horvat"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_10yswyz",
+        "columns": null
+      },
+      "id": "Field_173dgxe",
+      "key": "select_uniqqm",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "pridodjeliti_referenta",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}

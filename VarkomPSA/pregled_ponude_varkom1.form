@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "label": "Ime i prezime",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ybt7nh",
+        "columns": null
+      },
+      "id": "Field_1wneqch",
+      "key": "textfield_gvwi2j",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Osobni identifikacijski broj (OIB)",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0e48k0b",
+        "columns": null
+      },
+      "id": "Field_0gm1t47",
+      "key": "textfield_px4nt",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Osnovni podaci o Građevinskoj dozvoli",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1rudyu9",
+        "columns": null
+      },
+      "id": "Field_0bdnqlv",
+      "key": "textarea_4ka6c",
+      "properties": {},
+      "description": "Broj dokumenta, Datum izdavanja, Tijelo koje je izdalo dokument"
+    },
+    {
+      "label": "Osnovni podaci o izvodu iz katastarskog plana",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1v517xp",
+        "columns": null
+      },
+      "id": "Field_1e0kyke",
+      "key": "textarea_zz19e",
+      "description": "Katastarska čestica, Katastarska općina, Nadležni katastarski ured"
+    },
+    {
+      "label": "Izjavljujem da posjedujem navedenu dokumentaciju te da ću je dostaviti na zahtjev",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0vwqj9e",
+        "columns": null
+      },
+      "id": "Field_02xdcjs",
+      "key": "checkbox_sa6w0g"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Datum i vrijeme",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_09y25iz",
+        "columns": null
+      },
+      "id": "Field_0rmruql",
+      "key": "datetime_whbphm"
+    },
+    {
+      "label": "Opis projekta priključka",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_00p3xs0",
+        "columns": null
+      },
+      "id": "Field_0yw0eel",
+      "key": "textarea_hkqjiq"
+    },
+    {
+      "label": "Artikl",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0e0vo56",
+        "columns": null
+      },
+      "id": "Field_0v8kki8",
+      "key": "textfield_cr5nrq",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Količina",
+      "type": "number",
+      "layout": {
+        "row": "Row_194mzf8",
+        "columns": null
+      },
+      "id": "Field_1k22ag1",
+      "key": "number_jd6oiz",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cijena",
+      "type": "number",
+      "layout": {
+        "row": "Row_194mzf8",
+        "columns": null
+      },
+      "id": "Field_0w742rh",
+      "key": "number_dz6pm",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Ukupni iznos",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fx91j7",
+        "columns": null
+      },
+      "id": "Field_1ilpbju",
+      "key": "textfield_vofwub",
+      "defaultValue": "${number_jd6oiz + number_dz6pm}"
+    },
+    {
+      "label": "Valjanost rješenja",
+      "values": [
+        {
+          "label": "Ispravna",
+          "value": "Ispravna"
+        },
+        {
+          "label": "Neispravna",
+          "value": "Neispravna"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1g2jxrm",
+        "columns": null
+      },
+      "id": "Field_0nx1dy3",
+      "key": "select_mmogwi",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Obrazloženje",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0794sll",
+        "columns": null
+      },
+      "id": "Field_1cj2uer",
+      "key": "textfield_zyzng"
+    }
+  ],
+  "type": "default",
+  "id": "pregled_ponude",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}
